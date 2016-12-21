@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.css"/>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>Welcome to My Awesome Chat App</h1>
+
+<h2 id="hello"></h2>
+
+<h3>Messaging</h3>
+<p>
+    <input name="message" placeholder="Your awesome message..." style="width: 200px;"/>
+    <button type="button" onclick="saveMessage()">Send</button>
+</p>
+
+<h4>Messages</h4>
+<ul id="message-list">
+</ul>
+
+<hr/>
+<p>
+    <button type="button" onclick="firebase.auth().signOut()">Sign Out</button>
+</p>
+</body>
+</html>
