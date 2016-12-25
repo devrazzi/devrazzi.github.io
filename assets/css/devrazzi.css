@@ -1,0 +1,43 @@
+.logo a {
+    text-transform: none !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+
+.nav p, .nav a, .nav span {
+    text-transform: none !important;
+}
+
+.off-canvas-sidebar .nav i {
+    font-size: 18px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.card .icon-big {
+    font-size: 8em;
+    min-height: 64px;
+    color: #66615b;
+}
+
+.icon-big .fa {
+    width: 100%;
+    display: initial;
+}
+
+.github-repo-name {
+    font-size: 20px;
+}
+
+.github-repo-stats {
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+.card .content {
+    padding: 20px;
+}
+
+.repo-listing-item {
+    padding-bottom: 30px;
+}
