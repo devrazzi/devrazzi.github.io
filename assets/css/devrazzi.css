@@ -27,6 +27,11 @@
 
 .github-repo-name {
     font-size: 20px;
+    color: #68B3C8;
+}
+
+.github-repo-name .place {
+    color: #252422;
 }
 
 .github-repo-stats {

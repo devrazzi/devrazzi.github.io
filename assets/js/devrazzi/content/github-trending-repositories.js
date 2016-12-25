@@ -1,7 +1,8 @@
-devrazzi.githubDailyTrending = [{
+devrazzi.gitHubDailyTrendingRepositories = [{
     "developer": "ttlequals0",
     "name": "autovpn",
-    "url": "https://github.com/ttlequals0/autovpn",
+    "repositoryUrl": "https://github.com/ttlequals0/autovpn",
+    "developerUrl": "https://github.com/ttlequals0",
     "description": "Script to create an OpenVPN Endpoint on AWS.",
     "programmingLanguage": "Shell",
     "totalStars": 729,
@@ -9,7 +10,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "jwasham",
     "name": "google-interview-university",
-    "url": "https://github.com/jwasham/google-interview-university",
+    "repositoryUrl": "https://github.com/jwasham/google-interview-university",
+    "developerUrl": "https://github.com/jwasham",
     "description": "A complete daily plan for studying to become a Google software engineer.",
     "programmingLanguage": null,
     "totalStars": 28977,
@@ -17,7 +19,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "FreeCodeCamp",
     "name": "FreeCodeCamp",
-    "url": "https://github.com/FreeCodeCamp/FreeCodeCamp",
+    "repositoryUrl": "https://github.com/FreeCodeCamp/FreeCodeCamp",
+    "developerUrl": "https://github.com/FreeCodeCamp",
     "description": "The https://FreeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.",
     "programmingLanguage": "JavaScript",
     "totalStars": 211889,
@@ -25,7 +28,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "amark",
     "name": "gun",
-    "url": "https://github.com/amark/gun",
+    "repositoryUrl": "https://github.com/amark/gun",
+    "developerUrl": "https://github.com/amark",
     "description": "A realtime, decentralized, offline-first, graph database engine.",
     "programmingLanguage": "JavaScript",
     "totalStars": 3467,
@@ -33,7 +37,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "SergioBenitez",
     "name": "Rocket",
-    "url": "https://github.com/SergioBenitez/Rocket",
+    "repositoryUrl": "https://github.com/SergioBenitez/Rocket",
+    "developerUrl": "https://github.com/SergioBenitez",
     "description": "A web framework for Rust.",
     "programmingLanguage": "Rust",
     "totalStars": 811,
@@ -41,7 +46,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "zxytim",
     "name": "neural-painter",
-    "url": "https://github.com/zxytim/neural-painter",
+    "repositoryUrl": "https://github.com/zxytim/neural-painter",
+    "developerUrl": "https://github.com/zxytim",
     "description": "Paint artistic patterns using random neural network",
     "programmingLanguage": "Python",
     "totalStars": 190,
@@ -49,7 +55,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "255kb",
     "name": "stack-on-a-budget",
-    "url": "https://github.com/255kb/stack-on-a-budget",
+    "repositoryUrl": "https://github.com/255kb/stack-on-a-budget",
+    "developerUrl": "https://github.com/255kb",
     "description": "A collection of services with great free tiers for developers on a budget",
     "programmingLanguage": null,
     "totalStars": 4701,
@@ -57,7 +64,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "trailofbits",
     "name": "algo",
-    "url": "https://github.com/trailofbits/algo",
+    "repositoryUrl": "https://github.com/trailofbits/algo",
+    "developerUrl": "https://github.com/trailofbits",
     "description": "1-click IPSEC VPN in the Cloud",
     "programmingLanguage": "Shell",
     "totalStars": 839,
@@ -65,7 +73,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "ggomaeng",
     "name": "better-developer-quotes",
-    "url": "https://github.com/ggomaeng/better-developer-quotes",
+    "repositoryUrl": "https://github.com/ggomaeng/better-developer-quotes",
+    "developerUrl": "https://github.com/ggomaeng",
     "description": "A compilation of answers I received from other developers when I asked them--\"How do I become a better developer?\"",
     "programmingLanguage": null,
     "totalStars": 155,
@@ -73,7 +82,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "devongovett",
     "name": "regexgen",
-    "url": "https://github.com/devongovett/regexgen",
+    "repositoryUrl": "https://github.com/devongovett/regexgen",
+    "developerUrl": "https://github.com/devongovett",
     "description": "Generate regular expressions that match a set of strings",
     "programmingLanguage": "JavaScript",
     "totalStars": 1282,
@@ -81,7 +91,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "vhf",
     "name": "free-programming-books",
-    "url": "https://github.com/vhf/free-programming-books",
+    "repositoryUrl": "https://github.com/vhf/free-programming-books",
+    "developerUrl": "https://github.com/vhf",
     "description": "\uD83D\uDCDA Freely available programming books",
     "programmingLanguage": null,
     "totalStars": 72439,
@@ -89,7 +100,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "propwnadmin",
     "name": "propwnadmin.github.io",
-    "url": "https://github.com/propwnadmin/propwnadmin.github.io",
+    "repositoryUrl": "https://github.com/propwnadmin/propwnadmin.github.io",
+    "developerUrl": "https://github.com/propwnadmin",
     "description": "ProPwn Backup",
     "programmingLanguage": "CSS",
     "totalStars": 110,
@@ -97,7 +109,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "rstacruz",
     "name": "webpack-tricks",
-    "url": "https://github.com/rstacruz/webpack-tricks",
+    "repositoryUrl": "https://github.com/rstacruz/webpack-tricks",
+    "developerUrl": "https://github.com/rstacruz",
     "description": "Tips and tricks in using Webpack",
     "programmingLanguage": null,
     "totalStars": 1554,
@@ -105,7 +118,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "jivoi",
     "name": "awesome-ml-for-cybersecurity",
-    "url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
+    "repositoryUrl": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
+    "developerUrl": "https://github.com/jivoi",
     "description": "Machine Learning for Cyber Security",
     "programmingLanguage": null,
     "totalStars": 246,
@@ -113,7 +127,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "LineageOS",
     "name": "android",
-    "url": "https://github.com/LineageOS/android",
+    "repositoryUrl": "https://github.com/LineageOS/android",
+    "developerUrl": "https://github.com/LineageOS",
     "description": "Misc Android stuff",
     "programmingLanguage": null,
     "totalStars": 112,
@@ -121,7 +136,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "citybound",
     "name": "citybound",
-    "url": "https://github.com/citybound/citybound",
+    "repositoryUrl": "https://github.com/citybound/citybound",
+    "developerUrl": "https://github.com/citybound",
     "description": "The city sim you deserve.",
     "programmingLanguage": "Rust",
     "totalStars": 96,
@@ -129,7 +145,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "facebookincubator",
     "name": "beringei",
-    "url": "https://github.com/facebookincubator/beringei",
+    "repositoryUrl": "https://github.com/facebookincubator/beringei",
+    "developerUrl": "https://github.com/facebookincubator",
     "description": "Beringei is a high performance, in-memory storage engine for time series data.",
     "programmingLanguage": "C++",
     "totalStars": 608,
@@ -137,7 +154,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "tensorflow",
     "name": "tensorflow",
-    "url": "https://github.com/tensorflow/tensorflow",
+    "repositoryUrl": "https://github.com/tensorflow/tensorflow",
+    "developerUrl": "https://github.com/tensorflow",
     "description": "Computation using data flow graphs for scalable machine learning",
     "programmingLanguage": "Python",
     "totalStars": 40991,
@@ -145,7 +163,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "channelcat",
     "name": "sanic",
-    "url": "https://github.com/channelcat/sanic",
+    "repositoryUrl": "https://github.com/channelcat/sanic",
+    "developerUrl": "https://github.com/channelcat",
     "description": "Python 3.5+ web server that's written to go fast",
     "programmingLanguage": "Python",
     "totalStars": 3707,
@@ -153,7 +172,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "keonkim",
     "name": "awesome-bits",
-    "url": "https://github.com/keonkim/awesome-bits",
+    "repositoryUrl": "https://github.com/keonkim/awesome-bits",
+    "developerUrl": "https://github.com/keonkim",
     "description": "\uD83D\uDCBB A curated list of awesome bitwise operations and tricks",
     "programmingLanguage": null,
     "totalStars": 1199,
@@ -161,7 +181,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "GoogleChrome",
     "name": "lighthouse",
-    "url": "https://github.com/GoogleChrome/lighthouse",
+    "repositoryUrl": "https://github.com/GoogleChrome/lighthouse",
+    "developerUrl": "https://github.com/GoogleChrome",
     "description": "Auditing, performance metrics, and best practices for Progressive Web Apps",
     "programmingLanguage": "JavaScript",
     "totalStars": 5628,
@@ -169,7 +190,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "QingWei-Li",
     "name": "docsify",
-    "url": "https://github.com/QingWei-Li/docsify",
+    "repositoryUrl": "https://github.com/QingWei-Li/docsify",
+    "developerUrl": "https://github.com/QingWei-Li",
     "description": "\uD83C\uDCCF A magical documentation site generator.",
     "programmingLanguage": "JavaScript",
     "totalStars": 480,
@@ -177,7 +199,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "mancj",
     "name": "SlideUp-Android",
-    "url": "https://github.com/mancj/SlideUp-Android",
+    "repositoryUrl": "https://github.com/mancj/SlideUp-Android",
+    "developerUrl": "https://github.com/mancj",
     "description": "SlideUp is a small library that allows you to add sweet slide effect to any view.",
     "programmingLanguage": "Java",
     "totalStars": 441,
@@ -185,7 +208,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "sindu12jun",
     "name": "table-dragger",
-    "url": "https://github.com/sindu12jun/table-dragger",
+    "repositoryUrl": "https://github.com/sindu12jun/table-dragger",
+    "developerUrl": "https://github.com/sindu12jun",
     "description": "Easily drag and drop sorting table",
     "programmingLanguage": "JavaScript",
     "totalStars": 172,
@@ -193,7 +217,8 @@ devrazzi.githubDailyTrending = [{
 }, {
     "developer": "vuejs",
     "name": "vue",
-    "url": "https://github.com/vuejs/vue",
+    "repositoryUrl": "https://github.com/vuejs/vue",
+    "developerUrl": "https://github.com/vuejs",
     "description": "Simple yet powerful library for building modern web interfaces.",
     "programmingLanguage": "JavaScript",
     "totalStars": 37641,
