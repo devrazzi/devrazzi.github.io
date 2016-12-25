@@ -4,6 +4,10 @@
     font-size: 30px !important;
 }
 
+.navbar .navbar-brand {
+    font-size: 18px;
+}
+
 .nav p, .nav a, .nav span {
     text-transform: none !important;
 }

@@ -19,11 +19,15 @@ devrazzi = {
             );
             Cookies.set(cookieName, 'true', {expires: 1});
         }
-
     }
-}
+
+};
 
 $(document).ready(function () {
+
+    if ($('.off-canvas-sidebar .sidebar-wrapper ul li').first().hasClass('divider')) {
+        $('.sidebar-wrapper .logo').css('border-bottom', '0');
+    }
 
     $('.coming-soon').click(function (e) {
         e.preventDefault();
