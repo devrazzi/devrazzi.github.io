@@ -1,226 +1,226 @@
 devrazzi.gitHubDailyTrendingRepositories = [{
-    "developer": "ttlequals0",
-    "name": "autovpn",
-    "repositoryUrl": "https://github.com/ttlequals0/autovpn",
-    "developerUrl": "https://github.com/ttlequals0",
-    "description": "Script to create an OpenVPN Endpoint on AWS.",
-    "programmingLanguage": "Shell",
-    "totalStars": 729,
-    "newStarsInPeriod": 351
-}, {
-    "developer": "jwasham",
-    "name": "google-interview-university",
-    "repositoryUrl": "https://github.com/jwasham/google-interview-university",
-    "developerUrl": "https://github.com/jwasham",
-    "description": "A complete daily plan for studying to become a Google software engineer.",
-    "programmingLanguage": null,
-    "totalStars": 28977,
-    "newStarsInPeriod": 288
+    "developer": "lk-geimfari",
+    "developerUrl": "https://github.com/lk-geimfari",
+    "name": "awesomo",
+    "repositoryUrl": "https://github.com/lk-geimfari/awesomo",
+    "description": "The really big list of really interesting open source projects in С, C++, Clojure, Common/Emacs Lisp, Elixir, Erlang, Golang, Haskell, JavaScript, Lua, OCaml, Python, R, Ruby, Rust, Scala and etc.",
+    "programmingLanguage": "Erlang",
+    "totalStars": 1167,
+    "newStarsInPeriod": 577
 }, {
     "developer": "FreeCodeCamp",
+    "developerUrl": "https://github.com/FreeCodeCamp",
     "name": "FreeCodeCamp",
     "repositoryUrl": "https://github.com/FreeCodeCamp/FreeCodeCamp",
-    "developerUrl": "https://github.com/FreeCodeCamp",
     "description": "The https://FreeCodeCamp.com open source codebase and curriculum. Learn to code and help nonprofits.",
     "programmingLanguage": "JavaScript",
-    "totalStars": 211889,
-    "newStarsInPeriod": 280
+    "totalStars": 212677,
+    "newStarsInPeriod": 434
 }, {
-    "developer": "amark",
-    "name": "gun",
-    "repositoryUrl": "https://github.com/amark/gun",
-    "developerUrl": "https://github.com/amark",
-    "description": "A realtime, decentralized, offline-first, graph database engine.",
+    "developer": "jwasham",
+    "developerUrl": "https://github.com/jwasham",
+    "name": "google-interview-university",
+    "repositoryUrl": "https://github.com/jwasham/google-interview-university",
+    "description": "A complete daily plan for studying to become a Google software engineer.",
+    "programmingLanguage": null,
+    "totalStars": 29580,
+    "newStarsInPeriod": 319
+}, {
+    "developer": "mitmproxy",
+    "developerUrl": "https://github.com/mitmproxy",
+    "name": "mitmproxy",
+    "repositoryUrl": "https://github.com/mitmproxy/mitmproxy",
+    "description": "An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers",
     "programmingLanguage": "JavaScript",
-    "totalStars": 3467,
-    "newStarsInPeriod": 284
+    "totalStars": 6645,
+    "newStarsInPeriod": 326
 }, {
-    "developer": "SergioBenitez",
-    "name": "Rocket",
-    "repositoryUrl": "https://github.com/SergioBenitez/Rocket",
-    "developerUrl": "https://github.com/SergioBenitez",
-    "description": "A web framework for Rust.",
-    "programmingLanguage": "Rust",
-    "totalStars": 811,
-    "newStarsInPeriod": 196
-}, {
-    "developer": "zxytim",
-    "name": "neural-painter",
-    "repositoryUrl": "https://github.com/zxytim/neural-painter",
-    "developerUrl": "https://github.com/zxytim",
-    "description": "Paint artistic patterns using random neural network",
-    "programmingLanguage": "Python",
-    "totalStars": 190,
-    "newStarsInPeriod": 170
+    "developer": "HandBrake",
+    "developerUrl": "https://github.com/HandBrake",
+    "name": "HandBrake",
+    "repositoryUrl": "https://github.com/HandBrake/HandBrake",
+    "description": "HandBrake's main development repository",
+    "programmingLanguage": "C",
+    "totalStars": 1344,
+    "newStarsInPeriod": 271
 }, {
     "developer": "255kb",
+    "developerUrl": "https://github.com/255kb",
     "name": "stack-on-a-budget",
     "repositoryUrl": "https://github.com/255kb/stack-on-a-budget",
-    "developerUrl": "https://github.com/255kb",
     "description": "A collection of services with great free tiers for developers on a budget",
     "programmingLanguage": null,
-    "totalStars": 4701,
-    "newStarsInPeriod": 152
+    "totalStars": 5145,
+    "newStarsInPeriod": 214
 }, {
-    "developer": "trailofbits",
-    "name": "algo",
-    "repositoryUrl": "https://github.com/trailofbits/algo",
-    "developerUrl": "https://github.com/trailofbits",
-    "description": "1-click IPSEC VPN in the Cloud",
+    "developer": "gjiazhe",
+    "developerUrl": "https://github.com/gjiazhe",
+    "name": "PanoramaImageView",
+    "repositoryUrl": "https://github.com/gjiazhe/PanoramaImageView",
+    "description": "An imageView can auto scroll with device rotating.",
+    "programmingLanguage": "Java",
+    "totalStars": 207,
+    "newStarsInPeriod": 185
+}, {
+    "developer": "ttlequals0",
+    "developerUrl": "https://github.com/ttlequals0",
+    "name": "autovpn",
+    "repositoryUrl": "https://github.com/ttlequals0/autovpn",
+    "description": "Script to Create On Demand OpenVPN Endpoints on AWS.",
     "programmingLanguage": "Shell",
-    "totalStars": 839,
-    "newStarsInPeriod": 133
+    "totalStars": 1252,
+    "newStarsInPeriod": 187
 }, {
-    "developer": "ggomaeng",
-    "name": "better-developer-quotes",
-    "repositoryUrl": "https://github.com/ggomaeng/better-developer-quotes",
-    "developerUrl": "https://github.com/ggomaeng",
-    "description": "A compilation of answers I received from other developers when I asked them--\"How do I become a better developer?\"",
-    "programmingLanguage": null,
-    "totalStars": 155,
-    "newStarsInPeriod": 119
+    "developer": "QMUI",
+    "developerUrl": "https://github.com/QMUI",
+    "name": "QMUI_iOS",
+    "repositoryUrl": "https://github.com/QMUI/QMUI_iOS",
+    "description": "QMUI iOS——致力于提高项目 UI 开发效率的解决方案",
+    "programmingLanguage": "Objective-C",
+    "totalStars": 400,
+    "newStarsInPeriod": 182
 }, {
-    "developer": "devongovett",
-    "name": "regexgen",
-    "repositoryUrl": "https://github.com/devongovett/regexgen",
-    "developerUrl": "https://github.com/devongovett",
-    "description": "Generate regular expressions that match a set of strings",
-    "programmingLanguage": "JavaScript",
-    "totalStars": 1282,
-    "newStarsInPeriod": 108
-}, {
-    "developer": "vhf",
-    "name": "free-programming-books",
-    "repositoryUrl": "https://github.com/vhf/free-programming-books",
-    "developerUrl": "https://github.com/vhf",
-    "description": "\uD83D\uDCDA Freely available programming books",
-    "programmingLanguage": null,
-    "totalStars": 72439,
-    "newStarsInPeriod": 99
-}, {
-    "developer": "propwnadmin",
-    "name": "propwnadmin.github.io",
-    "repositoryUrl": "https://github.com/propwnadmin/propwnadmin.github.io",
-    "developerUrl": "https://github.com/propwnadmin",
-    "description": "ProPwn Backup",
-    "programmingLanguage": "CSS",
-    "totalStars": 110,
-    "newStarsInPeriod": 101
-}, {
-    "developer": "rstacruz",
-    "name": "webpack-tricks",
-    "repositoryUrl": "https://github.com/rstacruz/webpack-tricks",
-    "developerUrl": "https://github.com/rstacruz",
-    "description": "Tips and tricks in using Webpack",
-    "programmingLanguage": null,
-    "totalStars": 1554,
-    "newStarsInPeriod": 94
-}, {
-    "developer": "jivoi",
-    "name": "awesome-ml-for-cybersecurity",
-    "repositoryUrl": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
-    "developerUrl": "https://github.com/jivoi",
-    "description": "Machine Learning for Cyber Security",
-    "programmingLanguage": null,
-    "totalStars": 246,
-    "newStarsInPeriod": 86
-}, {
-    "developer": "LineageOS",
-    "name": "android",
-    "repositoryUrl": "https://github.com/LineageOS/android",
-    "developerUrl": "https://github.com/LineageOS",
-    "description": "Misc Android stuff",
-    "programmingLanguage": null,
-    "totalStars": 112,
-    "newStarsInPeriod": 87
-}, {
-    "developer": "citybound",
-    "name": "citybound",
-    "repositoryUrl": "https://github.com/citybound/citybound",
-    "developerUrl": "https://github.com/citybound",
-    "description": "The city sim you deserve.",
-    "programmingLanguage": "Rust",
-    "totalStars": 96,
-    "newStarsInPeriod": 89
-}, {
-    "developer": "facebookincubator",
-    "name": "beringei",
-    "repositoryUrl": "https://github.com/facebookincubator/beringei",
-    "developerUrl": "https://github.com/facebookincubator",
-    "description": "Beringei is a high performance, in-memory storage engine for time series data.",
-    "programmingLanguage": "C++",
-    "totalStars": 608,
-    "newStarsInPeriod": 86
-}, {
-    "developer": "tensorflow",
-    "name": "tensorflow",
-    "repositoryUrl": "https://github.com/tensorflow/tensorflow",
-    "developerUrl": "https://github.com/tensorflow",
-    "description": "Computation using data flow graphs for scalable machine learning",
-    "programmingLanguage": "Python",
-    "totalStars": 40991,
-    "newStarsInPeriod": 72
-}, {
-    "developer": "channelcat",
-    "name": "sanic",
-    "repositoryUrl": "https://github.com/channelcat/sanic",
-    "developerUrl": "https://github.com/channelcat",
-    "description": "Python 3.5+ web server that's written to go fast",
-    "programmingLanguage": "Python",
-    "totalStars": 3707,
-    "newStarsInPeriod": 81
+    "developer": "mogulanyang",
+    "developerUrl": "https://github.com/mogulanyang",
+    "name": "LYMagicMacro",
+    "repositoryUrl": "https://github.com/mogulanyang/LYMagicMacro",
+    "description": "小兰魔法宏,OC黑魔法+语法糖,单文件轻量级,不需分类实现快捷声明,创建各种控件属性",
+    "programmingLanguage": "Objective-C",
+    "totalStars": 139,
+    "newStarsInPeriod": 127
 }, {
     "developer": "keonkim",
+    "developerUrl": "https://github.com/keonkim",
     "name": "awesome-bits",
     "repositoryUrl": "https://github.com/keonkim/awesome-bits",
-    "developerUrl": "https://github.com/keonkim",
     "description": "\uD83D\uDCBB A curated list of awesome bitwise operations and tricks",
     "programmingLanguage": null,
-    "totalStars": 1199,
-    "newStarsInPeriod": 83
+    "totalStars": 1497,
+    "newStarsInPeriod": 152
 }, {
-    "developer": "GoogleChrome",
-    "name": "lighthouse",
-    "repositoryUrl": "https://github.com/GoogleChrome/lighthouse",
-    "developerUrl": "https://github.com/GoogleChrome",
-    "description": "Auditing, performance metrics, and best practices for Progressive Web Apps",
+    "developer": "devongovett",
+    "developerUrl": "https://github.com/devongovett",
+    "name": "regexgen",
+    "repositoryUrl": "https://github.com/devongovett/regexgen",
+    "description": "Generate regular expressions that match a set of strings",
     "programmingLanguage": "JavaScript",
-    "totalStars": 5628,
-    "newStarsInPeriod": 80
+    "totalStars": 1554,
+    "newStarsInPeriod": 148
 }, {
-    "developer": "QingWei-Li",
-    "name": "docsify",
-    "repositoryUrl": "https://github.com/QingWei-Li/docsify",
-    "developerUrl": "https://github.com/QingWei-Li",
-    "description": "\uD83C\uDCCF A magical documentation site generator.",
-    "programmingLanguage": "JavaScript",
-    "totalStars": 480,
-    "newStarsInPeriod": 77
-}, {
-    "developer": "mancj",
-    "name": "SlideUp-Android",
-    "repositoryUrl": "https://github.com/mancj/SlideUp-Android",
-    "developerUrl": "https://github.com/mancj",
-    "description": "SlideUp is a small library that allows you to add sweet slide effect to any view.",
-    "programmingLanguage": "Java",
-    "totalStars": 441,
-    "newStarsInPeriod": 73
-}, {
-    "developer": "sindu12jun",
-    "name": "table-dragger",
-    "repositoryUrl": "https://github.com/sindu12jun/table-dragger",
-    "developerUrl": "https://github.com/sindu12jun",
-    "description": "Easily drag and drop sorting table",
-    "programmingLanguage": "JavaScript",
+    "developer": "JetradarMobile",
+    "developerUrl": "https://github.com/JetradarMobile",
+    "name": "android-snowfall",
+    "repositoryUrl": "https://github.com/JetradarMobile/android-snowfall",
+    "description": "Fully customizable implementation of \"Snowfall View\" on Android.",
+    "programmingLanguage": "Kotlin",
     "totalStars": 172,
-    "newStarsInPeriod": 64
+    "newStarsInPeriod": 141
+}, {
+    "developer": "daniel-stoneuk",
+    "developerUrl": "https://github.com/daniel-stoneuk",
+    "name": "material-about-library",
+    "repositoryUrl": "https://github.com/daniel-stoneuk/material-about-library",
+    "description": "Making it easy to create beautiful about screens for your apps",
+    "programmingLanguage": "Java",
+    "totalStars": 170,
+    "newStarsInPeriod": 137
+}, {
+    "developer": "zhengken",
+    "developerUrl": "https://github.com/zhengken",
+    "name": "LyricViewDemo",
+    "repositoryUrl": "https://github.com/zhengken/LyricViewDemo",
+    "description": "LyricView is a powerful and flexible custom view to display lyrics within music player under Android",
+    "programmingLanguage": "Java",
+    "totalStars": 140,
+    "newStarsInPeriod": 132
 }, {
     "developer": "vuejs",
+    "developerUrl": "https://github.com/vuejs",
     "name": "vue",
     "repositoryUrl": "https://github.com/vuejs/vue",
-    "developerUrl": "https://github.com/vuejs",
     "description": "Simple yet powerful library for building modern web interfaces.",
     "programmingLanguage": "JavaScript",
-    "totalStars": 37641,
-    "newStarsInPeriod": 59
+    "totalStars": 37862,
+    "newStarsInPeriod": 116
+}, {
+    "developer": "rstacruz",
+    "developerUrl": "https://github.com/rstacruz",
+    "name": "webpack-tricks",
+    "repositoryUrl": "https://github.com/rstacruz/webpack-tricks",
+    "description": "Tips and tricks in using Webpack",
+    "programmingLanguage": null,
+    "totalStars": 1823,
+    "newStarsInPeriod": 121
+}, {
+    "developer": "githubwing",
+    "developerUrl": "https://github.com/githubwing",
+    "name": "DragPhotoView",
+    "repositoryUrl": "https://github.com/githubwing/DragPhotoView",
+    "description": "A photoView to scale image and finish activity，高仿微信可拖拽返回PhotoView",
+    "programmingLanguage": "Java",
+    "totalStars": 323,
+    "newStarsInPeriod": 112
+}, {
+    "developer": "amark",
+    "developerUrl": "https://github.com/amark",
+    "name": "gun",
+    "repositoryUrl": "https://github.com/amark/gun",
+    "description": "A realtime, decentralized, offline-first, graph database engine.",
+    "programmingLanguage": "JavaScript",
+    "totalStars": 3753,
+    "newStarsInPeriod": 118
+}, {
+    "developer": "tensorflow",
+    "developerUrl": "https://github.com/tensorflow",
+    "name": "tensorflow",
+    "repositoryUrl": "https://github.com/tensorflow/tensorflow",
+    "description": "Computation using data flow graphs for scalable machine learning",
+    "programmingLanguage": "Python",
+    "totalStars": 41170,
+    "newStarsInPeriod": 83
+}, {
+    "developer": "garretyoder",
+    "developerUrl": "https://github.com/garretyoder",
+    "name": "Colorful",
+    "repositoryUrl": "https://github.com/garretyoder/Colorful",
+    "description": null,
+    "programmingLanguage": "Java",
+    "totalStars": 469,
+    "newStarsInPeriod": 105
+}, {
+    "developer": "lawloretienne",
+    "developerUrl": "https://github.com/lawloretienne",
+    "name": "MovieHub",
+    "repositoryUrl": "https://github.com/lawloretienne/MovieHub",
+    "description": "Showcases popular movies, tv shows, and people from The Movie Database",
+    "programmingLanguage": "Java",
+    "totalStars": 121,
+    "newStarsInPeriod": 99
+}, {
+    "developer": "fancymax",
+    "developerUrl": "https://github.com/fancymax",
+    "name": "12306ForMac",
+    "repositoryUrl": "https://github.com/fancymax/12306ForMac",
+    "description": "An unofficial 12306 Client for Mac",
+    "programmingLanguage": "Swift",
+    "totalStars": 1303,
+    "newStarsInPeriod": 90
+}, {
+    "developer": "go-gitea",
+    "developerUrl": "https://github.com/go-gitea",
+    "name": "gitea",
+    "repositoryUrl": "https://github.com/go-gitea/gitea",
+    "description": "Gitea: Git with a cup of tea",
+    "programmingLanguage": "Go",
+    "totalStars": 430,
+    "newStarsInPeriod": 98
+}, {
+    "developer": "infernojs",
+    "developerUrl": "https://github.com/infernojs",
+    "name": "inferno",
+    "repositoryUrl": "https://github.com/infernojs/inferno",
+    "description": "An extremely fast, React-like JavaScript library for building modern user interfaces",
+    "programmingLanguage": "JavaScript",
+    "totalStars": 7270,
+    "newStarsInPeriod": 95
 }];
