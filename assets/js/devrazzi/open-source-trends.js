@@ -25,7 +25,8 @@ $(document).ready(function () {
     var repositoryComponents = [];
     for (var i = 0; i < devrazzi.gitHubDailyTrendingRepositories.length; i++) {
         var eachRepository = devrazzi.gitHubDailyTrendingRepositories[i];
-        var renderedComponent = repositoryComponentTemplate.replace('{{index}}', i + 1)
+        var renderedComponent = repositoryComponentTemplate
+            .replace('{{index}}', i + 1)
             .replace('{{developerUrl}}', eachRepository.developerUrl)
             .replace('{{developerName}}', eachRepository.developer)
             .replace('{{repoUrl}}', eachRepository.repositoryUrl)
