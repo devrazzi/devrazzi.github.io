@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    var repositories = devrazzi.openSourceRepositories['gitHub']['trending']['daily'];
+
     var repositoryComponentTemplate =
         '<div class="col-lg-6 col-sm-12 repo-listing-item">' +
         '    <p class="github-repo-name">' +
@@ -23,8 +25,8 @@ $(document).ready(function () {
         '</div>';
 
     var repositoryComponents = [];
-    for (var i = 0; i < devrazzi.gitHubDailyTrendingRepositories.length; i++) {
-        var eachRepository = devrazzi.gitHubDailyTrendingRepositories[i];
+    for (var i = 0; i < repositories.length; i++) {
+        var eachRepository = repositories[i];
         var renderedComponent = repositoryComponentTemplate
             .replace('{{index}}', i + 1)
             .replace('{{developerUrl}}', eachRepository.developerUrl)
