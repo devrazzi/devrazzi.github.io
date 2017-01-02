@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <title>Latest Popular Videos for Developers - devrazzi.com</title>
+    <title>Contribute to Make Devrazzi Better - devrazzi.com</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
     <meta name="viewport" content="width=device-width"/>
@@ -29,17 +29,10 @@
     <link href="assets/css/devrazzi.css" rel="stylesheet">
 
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
         ga('create', 'UA-59509615-3', 'auto');
         ga('send', 'pageview');
@@ -75,7 +68,7 @@
                         <p>OPEN SOURCE TRENDS</p>
                     </a>
                 </li>
-                <li class="active">
+                <li>
                     <a href="/latest-popular-video-contents.html">
                         <i class="fa fa-youtube"></i>
                         <p>LATEST VIDEOS</p>
@@ -107,72 +100,20 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand">Latest Popular Videos</a>
+                    <a class="navbar-brand">Contribute</a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-youtube"></i>
-                                <p>YouTube</p>
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#" class="coming-soon">
-                                        <i class="fa fa-list-ol"></i> All
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="coming-soon">
-                                        <i class="fa fa-vimeo"></i> Vimeo
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-calendar"></i>
-                                <p>Monthly</p>
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#" class="coming-soon">Daily</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="coming-soon">Weekly</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="coming-soon">Yearly</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="card">
-                            <div class="header">
-                                <h4 class="title">This Month's Popular Videos for Developers</h4>
-                                <p class="category">YouTube</p>
-                            </div>
-                            <div class="content">
-                                <div class="footer">
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="ti-reload"></i> Updated a little while ago
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="content" style="height: 100%; padding: 0; margin: 0;">
+            <div class="container-fluid" style="height: 100%; padding: 0; margin: 0;">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIWvyfI3wQcDkBvVQQbzQxes0eQkYOwkaYus_lsy7SxrOIZw/viewform?embedded=true"
+                        frameborder="0" marginheight="0" marginwidth="0"
+                        style="height: 100%;width: 100%;" width="100%" height="100%">
+                    Contribution Form Loading...
+                </iframe>
             </div>
         </div>
 
@@ -217,9 +158,11 @@
 <!-- Paper Dashboard Core javascript and methods -->
 <script src="assets/js/paper-dashboard.js"></script>
 
+<!-- Cookie -->
+<script src="assets/js/js.cookie.js"></script>
+
 <!-- devrazzi's JS Files -->
 <script src="assets/js/devrazzi/devrazzi.js"></script>
-<script src="assets/js/devrazzi/content/youtube-popular-videos.js"></script>
-<script src="assets/js/devrazzi/latest-popular-video-contents.js"></script>
+<script src="assets/js/devrazzi/home.js"></script>
 
 </html>
