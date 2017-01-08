@@ -3,40 +3,16 @@ devrazzi.popularPosts = {
     twitter: {
         weekly: [{
             "id": "817489107916034048",
-            "favoriteCount": 1954,
-            "retweetCount": 1093,
+            "favoriteCount": 1966,
+            "retweetCount": 1099,
             "twitterUser": {
                 "id": "2735246778",
                 "name": "The Practical Dev",
                 "screenName": "ThePracticalDev",
-                "followerCount": 93707,
-                "popularity": 93707
+                "followerCount": 93713,
+                "popularity": 468
             },
-            "popularity": 21637
-        }, {
-            "id": "816211949268639744",
-            "favoriteCount": 147,
-            "retweetCount": 60,
-            "twitterUser": {
-                "id": "50090898",
-                "name": "Google Developers",
-                "screenName": "googledevs",
-                "followerCount": 1830180,
-                "popularity": 1830180
-            },
-            "popularity": 19636
-        }, {
-            "id": "816428386356580353",
-            "favoriteCount": 602,
-            "retweetCount": 359,
-            "twitterUser": {
-                "id": "13334762",
-                "name": "GitHub",
-                "screenName": "github",
-                "followerCount": 1191941,
-                "popularity": 1191941
-            },
-            "popularity": 18519
+            "popularity": 26380
         }, {
             "id": "816313935406256128",
             "favoriteCount": 1007,
@@ -46,57 +22,93 @@ devrazzi.popularPosts = {
                 "name": "Programming Wisdom",
                 "screenName": "CodeWisdom",
                 "followerCount": 62331,
-                "popularity": 62331
+                "popularity": 311
             },
-            "popularity": 12378
+            "popularity": 15765
+        }, {
+            "id": "816428386356580353",
+            "favoriteCount": 602,
+            "retweetCount": 359,
+            "twitterUser": {
+                "id": "13334762",
+                "name": "GitHub",
+                "screenName": "github",
+                "followerCount": 1192201,
+                "popularity": 5961
+            },
+            "popularity": 14345
+        }, {
+            "id": "816211949268639744",
+            "favoriteCount": 147,
+            "retweetCount": 60,
+            "twitterUser": {
+                "id": "50090898",
+                "name": "Google Developers",
+                "screenName": "googledevs",
+                "followerCount": 1830281,
+                "popularity": 9151
+            },
+            "popularity": 10645
         }, {
             "id": "815974878675353600",
-            "favoriteCount": 471,
+            "favoriteCount": 472,
             "retweetCount": 125,
             "twitterUser": {
                 "id": "16665197",
                 "name": "Martin Fowler",
                 "screenName": "martinfowler",
-                "followerCount": 197450,
-                "popularity": 197450
+                "followerCount": 197452,
+                "popularity": 987
             },
-            "popularity": 5579
+            "popularity": 4431
         }, {
-            "id": "817491663711076352",
-            "favoriteCount": 283,
-            "retweetCount": 28,
+            "id": "817476877317115904",
+            "favoriteCount": 138,
+            "retweetCount": 168,
             "twitterUser": {
-                "id": "14561327",
-                "name": "DHH",
-                "screenName": "dhh",
-                "followerCount": 201315,
-                "popularity": 201315
+                "id": "1719831672",
+                "name": "Spring Boot",
+                "screenName": "springboot",
+                "followerCount": 14245,
+                "popularity": 71
             },
-            "popularity": 3708
+            "popularity": 3707
         }, {
-            "id": "817670376654127105",
-            "favoriteCount": 221,
-            "retweetCount": 36,
-            "twitterUser": {
-                "id": "5637652",
-                "name": "Jeff Atwood",
-                "screenName": "codinghorror",
-                "followerCount": 212512,
-                "popularity": 212512
-            },
-            "popularity": 3590
-        }, {
-            "id": "817371645438529537",
-            "favoriteCount": 96,
-            "retweetCount": 54,
+            "id": "817765021488922624",
+            "favoriteCount": 79,
+            "retweetCount": 57,
             "twitterUser": {
                 "id": "1157784678",
                 "name": "Microsoft Developer",
                 "screenName": "msdev",
-                "followerCount": 233105,
-                "popularity": 233105
+                "followerCount": 233114,
+                "popularity": 1165
             },
-            "popularity": 3351
+            "popularity": 2463
+        }, {
+            "id": "817670376654127105",
+            "favoriteCount": 223,
+            "retweetCount": 37,
+            "twitterUser": {
+                "id": "5637652",
+                "name": "Jeff Atwood",
+                "screenName": "codinghorror",
+                "followerCount": 212514,
+                "popularity": 1062
+            },
+            "popularity": 2248
+        }, {
+            "id": "817491663711076352",
+            "favoriteCount": 286,
+            "retweetCount": 29,
+            "twitterUser": {
+                "id": "14561327",
+                "name": "DHH",
+                "screenName": "dhh",
+                "followerCount": 201390,
+                "popularity": 1006
+            },
+            "popularity": 2158
         }, {
             "id": "816949500623331328",
             "favoriteCount": 110,
@@ -105,22 +117,10 @@ devrazzi.popularPosts = {
                 "id": "70096167",
                 "name": "Codrops",
                 "screenName": "codrops",
-                "followerCount": 166219,
-                "popularity": 166219
+                "followerCount": 166220,
+                "popularity": 831
             },
-            "popularity": 2732
-        }, {
-            "id": "817476877317115904",
-            "favoriteCount": 138,
-            "retweetCount": 167,
-            "twitterUser": {
-                "id": "1719831672",
-                "name": "Spring Boot",
-                "screenName": "springboot",
-                "followerCount": 14240,
-                "popularity": 14240
-            },
-            "popularity": 2502
+            "popularity": 2091
         }, {
             "id": "817063059273420800",
             "favoriteCount": 96,
@@ -130,57 +130,33 @@ devrazzi.popularPosts = {
                 "name": "Joel Spolsky",
                 "screenName": "spolsky",
                 "followerCount": 138291,
-                "popularity": 138291
+                "popularity": 691
             },
-            "popularity": 2462
+            "popularity": 2083
         }, {
-            "id": "817894058186207235",
-            "favoriteCount": 55,
-            "retweetCount": 4,
+            "id": "818084660840374272",
+            "favoriteCount": 74,
+            "retweetCount": 52,
             "twitterUser": {
-                "id": "5676102",
-                "name": "Scott Hanselman",
-                "screenName": "shanselman",
-                "followerCount": 177941,
-                "popularity": 177941
+                "id": "14429713",
+                "name": "Venkat Subramaniam",
+                "screenName": "venkat_s",
+                "followerCount": 21090,
+                "popularity": 105
             },
-            "popularity": 2094
+            "popularity": 1293
         }, {
-            "id": "817400676397486080",
-            "favoriteCount": 41,
-            "retweetCount": 13,
+            "id": "817899799013793792",
+            "favoriteCount": 32,
+            "retweetCount": 34,
             "twitterUser": {
-                "id": "646533",
-                "name": "Eric Meyer",
-                "screenName": "meyerweb",
-                "followerCount": 98416,
-                "popularity": 98416
+                "id": "928961",
+                "name": "Rasmus Lerdorf",
+                "screenName": "rasmus",
+                "followerCount": 44087,
+                "popularity": 220
             },
-            "popularity": 1319
-        }, {
-            "id": "817781680106852352",
-            "favoriteCount": 54,
-            "retweetCount": 22,
-            "twitterUser": {
-                "id": "10718322",
-                "name": "Speckyboy",
-                "screenName": "speckyboy",
-                "followerCount": 75471,
-                "popularity": 75471
-            },
-            "popularity": 1244
-        }, {
-            "id": "816669672208744448",
-            "favoriteCount": 35,
-            "retweetCount": 11,
-            "twitterUser": {
-                "id": "9505092",
-                "name": "Uncle Bob Martin",
-                "screenName": "unclebobmartin",
-                "followerCount": 89896,
-                "popularity": 89896
-            },
-            "popularity": 1183
+            "popularity": 964
         }, {
             "id": "815990242599575552",
             "favoriteCount": 99,
@@ -189,46 +165,46 @@ devrazzi.popularPosts = {
                 "id": "410939902",
                 "name": "Erik Meijer",
                 "screenName": "headinthebox",
-                "followerCount": 19024,
-                "popularity": 19024
+                "followerCount": 19023,
+                "popularity": 95
             },
-            "popularity": 1015
+            "popularity": 953
         }, {
-            "id": "818084660840374272",
-            "favoriteCount": 64,
-            "retweetCount": 46,
+            "id": "817781680106852352",
+            "favoriteCount": 55,
+            "retweetCount": 22,
             "twitterUser": {
-                "id": "14429713",
-                "name": "Venkat Subramaniam",
-                "screenName": "venkat_s",
-                "followerCount": 21090,
-                "popularity": 21090
+                "id": "10718322",
+                "name": "Speckyboy",
+                "screenName": "speckyboy",
+                "followerCount": 75474,
+                "popularity": 377
             },
-            "popularity": 990
+            "popularity": 927
         }, {
-            "id": "817899799013793792",
-            "favoriteCount": 31,
-            "retweetCount": 32,
+            "id": "817400676397486080",
+            "favoriteCount": 41,
+            "retweetCount": 13,
             "twitterUser": {
-                "id": "928961",
-                "name": "Rasmus Lerdorf",
-                "screenName": "rasmus",
-                "followerCount": 44084,
-                "popularity": 44084
+                "id": "646533",
+                "name": "Eric Meyer",
+                "screenName": "meyerweb",
+                "followerCount": 98417,
+                "popularity": 492
             },
-            "popularity": 915
+            "popularity": 834
         }, {
-            "id": "817772069421281281",
-            "favoriteCount": 40,
-            "retweetCount": 24,
+            "id": "816669672208744448",
+            "favoriteCount": 35,
+            "retweetCount": 11,
             "twitterUser": {
-                "id": "6927562",
-                "name": "Thomas Fuchs",
-                "screenName": "thomasfuchs",
-                "followerCount": 28849,
-                "popularity": 28849
+                "id": "9505092",
+                "name": "Uncle Bob Martin",
+                "screenName": "unclebobmartin",
+                "followerCount": 89898,
+                "popularity": 449
             },
-            "popularity": 728
+            "popularity": 739
         }, {
             "id": "817058715295682564",
             "favoriteCount": 24,
@@ -238,9 +214,9 @@ devrazzi.popularPosts = {
                 "name": "Pivotal",
                 "screenName": "pivotal",
                 "followerCount": 36978,
-                "popularity": 36978
+                "popularity": 184
             },
-            "popularity": 719
+            "popularity": 692
         }, {
             "id": "817135336513904640",
             "favoriteCount": 8,
@@ -249,34 +225,34 @@ devrazzi.popularPosts = {
                 "id": "16402798",
                 "name": "SpringCentral",
                 "screenName": "springcentral",
-                "followerCount": 41631,
-                "popularity": 41631
+                "followerCount": 41636,
+                "popularity": 208
             },
-            "popularity": 556
+            "popularity": 424
         }, {
-            "id": "817076493675352064",
-            "favoriteCount": 6,
-            "retweetCount": 0,
+            "id": "816634574235123712",
+            "favoriteCount": 49,
+            "retweetCount": 5,
             "twitterUser": {
-                "id": "9453872",
-                "name": "Elijah Manor",
-                "screenName": "elijahmanor",
-                "followerCount": 44746,
-                "popularity": 44746
+                "id": "73339662",
+                "name": "Hakim El Hattab",
+                "screenName": "hakimel",
+                "followerCount": 33100,
+                "popularity": 165
             },
-            "popularity": 477
+            "popularity": 363
         }, {
             "id": "817847080802582528",
             "favoriteCount": 25,
-            "retweetCount": 9,
+            "retweetCount": 10,
             "twitterUser": {
                 "id": "4324751",
                 "name": "Josh Long (龙之春, जोश)",
                 "screenName": "starbuxman",
-                "followerCount": 13888,
-                "popularity": 13888
+                "followerCount": 13892,
+                "popularity": 69
             },
-            "popularity": 353
+            "popularity": 319
         }, {
             "id": "817415964644048896",
             "favoriteCount": 6,
@@ -285,10 +261,10 @@ devrazzi.popularPosts = {
                 "id": "225097272",
                 "name": "Yegor Bugayenko",
                 "screenName": "yegor256",
-                "followerCount": 13135,
-                "popularity": 13135
+                "followerCount": 13136,
+                "popularity": 65
             },
-            "popularity": 211
+            "popularity": 177
         }]
     }
 
