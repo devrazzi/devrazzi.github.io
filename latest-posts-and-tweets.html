@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <title>Contribute to Make Devrazzi Better - devrazzi.com</title>
+    <title>Latest Posts and Tweets on Development - devrazzi.com</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
     <meta name="viewport" content="width=device-width"/>
@@ -81,8 +81,8 @@
                         <p>LATEST VIDEOS</p>
                     </a>
                 </li>
-                <li>
-                    <a href="#" class="coming-soon">
+                <li class="active">
+                    <a href="/latest-posts-and-tweets.html">
                         <i class="fa fa-twitter"></i>
                         <p>LATEST POSTS/TWEETS</span></p>
                     </a>
@@ -107,22 +107,93 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand">Contribute</a>
+                    <a class="navbar-brand">Latest Posts and Tweets</a>
                 </div>
                 <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-twitter"></i>
+                                <p>Twitter</p>
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="coming-soon">
+                                        <i class="fa fa-list-ol"></i> All
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="coming-soon">
+                                        <i class="fa fa-linkedin"></i> LinkedIn
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-calendar"></i>
+                                <p>Weekly</p>
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" class="coming-soon">Daily</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
 
-        <div class="content" style="height: 100%; padding: 0; margin: 0;">
-            <div class="container-fluid" style="height: 100%; padding: 0; margin: 0;">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIWvyfI3wQcDkBvVQQbzQxes0eQkYOwkaYus_lsy7SxrOIZw/viewform?embedded=true"
-                        frameborder="0" marginheight="0" marginwidth="0"
-                        style="height: 100%;width: 100%;">
-                    Contribution Form Loading...
-                </iframe>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">This Week's Popular Tweets</h4>
+                                <p class="category">Twitter</p>
+                            </div>
+                            <div class="content">
+                                <div class="footer">
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-reload"></i> Updated a little while ago
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contribute.html">
+                                Contribute
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright pull-right">
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script>
+                    <a href="/">devrazzi.com</a>
+                    | created by <a href="http://expercise.com" target="_blank">expercise Labs</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </div>
 </body>
@@ -140,11 +211,11 @@
 <!-- Paper Dashboard Core javascript and methods -->
 <script src="assets/js/paper-dashboard.js"></script>
 
-<!-- Cookie -->
-<script src="assets/js/js.cookie.js"></script>
+<script defer src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- devrazzi's JS Files -->
 <script src="assets/js/devrazzi/devrazzi.js"></script>
-<script src="assets/js/devrazzi/home.js"></script>
+<script src="assets/js/devrazzi/content/popular-posts-content.js"></script>
+<script src="assets/js/devrazzi/latest-popular-posts.js"></script>
 
 </html>

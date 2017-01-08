@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    var selectedContent = devrazzi.popularVideos['youTube']['monthly'];
+
     var videoComponentTemplate =
         '<div class="col-lg-6 col-sm-12 repo-listing-item">' +
         '   <p class="github-repo-name">' +
@@ -26,8 +28,8 @@ $(document).ready(function () {
         '</div>';
 
     var videoComponents = [];
-    for (var i = 0; i < devrazzi.youTubeDailyPopularVideos.length; i++) {
-        var eachVideo = devrazzi.youTubeDailyPopularVideos[i];
+    for (var i = 0; i < selectedContent.length; i++) {
+        var eachVideo = selectedContent[i];
         var renderedComponent = videoComponentTemplate
             .replace('{{index}}', i + 1)
             .replace('{{channelUrl}}', eachVideo.youTubeChannel.url)
