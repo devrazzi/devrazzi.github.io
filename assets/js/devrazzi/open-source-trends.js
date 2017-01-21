@@ -94,7 +94,7 @@ var menu = [
 $(document).ready(function () {
     devrazzi.createMenu(menu);
 
-    var selectedContent = devrazzi.openSourceRepositories['gitHub']['trending']['weekly'];
+    var selectedContent = devrazzi.getSelectedContentByFilteringMenu(menu);
 
     var repositoryComponentTemplate =
         '<div class="col-lg-6 col-sm-12 repo-listing-item">' +

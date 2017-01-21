@@ -1,5 +1,7 @@
 devrazzi = {
 
+    contents: {},
+
     showWelcome: function () {
         var cookieName = 'devrazzi-welcome-shown';
         if (!Cookies.get(cookieName)) {
@@ -68,6 +70,19 @@ devrazzi = {
         $.each($('ul.nav.navbar-nav'), function (i, $each) {
             $($each).html(renderedMenuItems + $each.innerHTML);
         });
+    },
+
+    getSelectedContentByFilteringMenu: function (menu) {
+        var selectedOptions = JSON.search(menu, '//*[active="true"]').map(function (each) {
+            return each.value
+        });
+
+        var selectedContent = devrazzi.contents;
+        $.each(selectedOptions, function (i, each) {
+            selectedContent = selectedContent[each];
+        });
+
+        return selectedContent;
     }
 
 };

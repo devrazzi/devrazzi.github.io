@@ -63,7 +63,7 @@ var menu = [
 $(document).ready(function () {
     devrazzi.createMenu(menu);
 
-    var selectedContent = devrazzi.popularVideos['youTube']['monthly'];
+    var selectedContent = devrazzi.getSelectedContentByFilteringMenu(menu);
 
     var videoComponentTemplate =
         '<div class="col-lg-6 col-sm-12 repo-listing-item">' +

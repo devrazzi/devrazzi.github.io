@@ -49,7 +49,7 @@ var menu = [
 $(document).ready(function () {
     devrazzi.createMenu(menu);
 
-    var selectedContent = devrazzi.popularPosts['twitter']['weekly'];
+    var selectedContent = devrazzi.getSelectedContentByFilteringMenu(menu);
 
     var tweetComponentTemplate =
         '<div class="col-lg-6 col-sm-12 repo-listing-item">' +
