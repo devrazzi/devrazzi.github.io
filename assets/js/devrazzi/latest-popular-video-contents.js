@@ -1,4 +1,67 @@
+var menu = [
+    {
+        name: "source",
+        options: [
+            {
+                name: "YouTube",
+                icon: "fa fa-youtube",
+                value: "youTube",
+                active: true,
+                available: true
+            },
+            {
+                name: "All",
+                icon: "fa fa-list-ol",
+                value: "all",
+                active: false,
+                available: false
+            },
+            {
+                name: "Vimeo",
+                icon: "fa fa-vimeo",
+                value: "vimeo",
+                active: false,
+                available: false
+            }
+        ]
+    },
+    {
+        name: "period",
+        options: [
+            {
+                name: "Monthly",
+                icon: "fa fa-calendar",
+                value: "monthly",
+                active: true,
+                available: true
+            },
+            {
+                name: "Daily",
+                icon: "fa fa-calendar",
+                value: "daily",
+                active: false,
+                available: false
+            },
+            {
+                name: "Weekly",
+                icon: "fa fa-calendar",
+                value: "weekly",
+                active: false,
+                available: false
+            },
+            {
+                name: "Yearly",
+                icon: "fa fa-calendar",
+                value: "yearly",
+                active: false,
+                available: false
+            }
+        ]
+    }
+];
+
 $(document).ready(function () {
+    devrazzi.createMenu(menu);
 
     var selectedContent = devrazzi.popularVideos['youTube']['monthly'];
 

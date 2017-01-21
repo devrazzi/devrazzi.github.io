@@ -65,9 +65,9 @@ devrazzi = {
                 .replace("{{options}}", renderedOptions);
         }
 
-        var $navbars = $('ul.nav.navbar-nav');
-        $($navbars[0]).html(renderedMenuItems);
-        $($navbars[1]).html(renderedMenuItems + $navbars[0].innerHTML);
+        $.each($('ul.nav.navbar-nav'), function (i, $each) {
+            $($each).html(renderedMenuItems + $each.innerHTML);
+        });
     }
 
 };

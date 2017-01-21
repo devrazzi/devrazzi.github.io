@@ -81,9 +81,9 @@ var menu = [
                 available: false
             },
             {
-                name: "Yearly",
+                name: "Monthly",
                 icon: "fa fa-calendar",
-                value: "daily",
+                value: "monthly",
                 active: false,
                 available: false
             }
