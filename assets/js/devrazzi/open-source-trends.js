@@ -1,4 +1,98 @@
+var menu = [
+    {
+        name: "source",
+        options: [
+            {
+                name: "GitHub",
+                icon: "fa fa-github",
+                value: "gitHub",
+                active: true,
+                available: true
+            },
+            {
+                name: "All",
+                icon: "fa fa-list-ol",
+                value: "all",
+                active: false,
+                available: false
+            },
+            {
+                name: "GitLab",
+                icon: "fa fa-gitlab",
+                value: "gitLab",
+                active: false,
+                available: false
+            }
+        ]
+    },
+    {
+        name: "sorting",
+        options: [
+            {
+                name: "Trending",
+                icon: "fa fa-rocket",
+                value: "trending",
+                active: true,
+                available: true
+            },
+            {
+                name: "Most Popular",
+                icon: "fa fa-star",
+                value: "mostPopular",
+                active: false,
+                available: false
+            }
+        ]
+    },
+    {
+        name: "contentType",
+        options: [
+            {
+                name: "Repositories",
+                icon: "fa fa-archive",
+                value: "repositories",
+                active: true,
+                available: true
+            },
+            {
+                name: "Developers",
+                icon: "fa fa-user-circle-o",
+                value: "developers",
+                active: false,
+                available: false
+            }
+        ]
+    },
+    {
+        name: "period",
+        options: [
+            {
+                name: "Weekly",
+                icon: "fa fa-calendar",
+                value: "weekly",
+                active: true,
+                available: true
+            },
+            {
+                name: "Daily",
+                icon: "fa fa-calendar",
+                value: "daily",
+                active: false,
+                available: false
+            },
+            {
+                name: "Yearly",
+                icon: "fa fa-calendar",
+                value: "daily",
+                active: false,
+                available: false
+            }
+        ]
+    }
+];
+
 $(document).ready(function () {
+    devrazzi.createMenu(menu);
 
     var selectedContent = devrazzi.openSourceRepositories['gitHub']['trending']['weekly'];
 

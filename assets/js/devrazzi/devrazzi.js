@@ -19,6 +19,55 @@ devrazzi = {
             );
             Cookies.set(cookieName, 'true', {expires: 1});
         }
+    },
+
+    createMenu: function (menu) {
+        var menuItemTemplate =
+            '<li class="dropdown" data-option-item="{{menuItemName}}">' +
+            '    <a href="#" class="dropdown-toggle" data-toggle="dropdown">' +
+            '        <i class="{{activeOptionIcon}}"></i>' +
+            '        <p>{{activeOptionName}}</p>' +
+            '        <b class="caret"></b>' +
+            '    </a>' +
+            '    <ul class="dropdown-menu">' +
+            '       {{options}}' +
+            '    </ul>' +
+            '</li>';
+
+        var optionTemplate =
+            '<li>' +
+            '   <a href="#" class="{{optionClass}}" data-option-value="{{optionValue}}">' +
+            '      <i class="{{optionIcon}}"></i> {{optionName}}' +
+            '   </a>' +
+            '</li>';
+
+        var renderedMenuItems = "";
+        for (var menuItemIndex = 0; menuItemIndex < menu.length; menuItemIndex++) {
+            var menuItem = menu[menuItemIndex];
+            var renderedOptions = "";
+            for (var optionIndex = 0; optionIndex < menuItem.options.length; optionIndex++) {
+                var option = menuItem.options[optionIndex];
+                if (!option.active) {
+                    renderedOptions += optionTemplate
+                        .replace("{{optionClass}}", option.available ? '' : 'coming-soon')
+                        .replace("{{optionValue}}", option.value)
+                        .replace("{{optionIcon}}", option.icon)
+                        .replace("{{optionName}}", option.name);
+                }
+            }
+
+            var activeOption = JSON.search(menuItem.options, '//*[active="true"]')[0];
+
+            renderedMenuItems += menuItemTemplate
+                .replace("{{menuItemName}}", menuItem.name)
+                .replace("{{activeOptionIcon}}", activeOption.icon)
+                .replace("{{activeOptionName}}", activeOption.name)
+                .replace("{{options}}", renderedOptions);
+        }
+
+        var $navbars = $('ul.nav.navbar-nav');
+        $($navbars[0]).html(renderedMenuItems);
+        $($navbars[1]).html(renderedMenuItems + $navbars[0].innerHTML);
     }
 
 };
@@ -29,7 +78,7 @@ $(document).ready(function () {
         $('.sidebar-wrapper .logo').css('border-bottom', '0');
     }
 
-    $('.coming-soon').click(function (e) {
+    $('body').on('click', '.coming-soon', function (e) {
         e.preventDefault();
         $.notify(
             {
