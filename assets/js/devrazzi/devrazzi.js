@@ -35,15 +35,15 @@ devrazzi = {
             '        <b class="caret"></b>' +
             '    </a>' +
             '    <ul class="dropdown-menu">' +
-            '       {{options}}' +
+            '        {{options}}' +
             '    </ul>' +
             '</li>';
 
         var optionTemplate =
             '<li>' +
-            '   <a href="#" class="{{optionClass}}" data-option-value="{{optionValue}}">' +
-            '      <i class="{{optionIcon}}"></i> {{optionName}}' +
-            '   </a>' +
+            '    <a href="#" class="{{optionClass}}" data-option-value="{{optionValue}}">' +
+            '        <i class="{{optionIcon}}"></i> {{optionName}}' +
+            '    </a>' +
             '</li>';
 
         var renderedMenuItems = "";
@@ -83,13 +83,18 @@ devrazzi = {
 
             e.preventDefault();
 
+            // Update menu selection
             var selectedMenuItem = $that.parents('li.dropdown').data('option-item');
             var selectedOption = $that.data('option-value');
             var menuItem = JSON.search(window.menu, '//*[name="' + selectedMenuItem + '"]')[0];
             $.each(menuItem.options, function (i, eachOption) {
                 eachOption.active = eachOption.value == selectedOption;
             });
+
+            // Re-create the menu
             devrazzi.createMenu(window.menu, callbackAfterFilterChanged);
+
+            // Refresh content by new filter
             callbackAfterFilterChanged && callbackAfterFilterChanged();
         });
     },
@@ -107,6 +112,11 @@ devrazzi = {
         });
 
         return selectedContent;
+    },
+
+    updateContentTitle: function(sourceFilter, periodFilter, sortingFilter, contentTypeFilter) {
+        $('div.card p.category').text(sourceFilter);
+        $('div.card h4.title').text(periodFilter + ' ' + sortingFilter + ' ' + contentTypeFilter);
     }
 
 };

@@ -53,6 +53,12 @@ $(document).ready(function () {
 });
 
 function refreshContentByFilteringMenu() {
+    // Update content title by new filter
+    var sourceFilter = JSON.search(window.menu, '//*[name="source"]/options[active="true"]/name')[0];
+    var periodFilter = JSON.search(window.menu, '//*[name="period"]/options[active="true"]/name')[0];
+    var contentTypeFilter = (sourceFilter == 'Twitter' ? 'Tweets' : 'Posts') + ' for Developers';
+    devrazzi.updateContentTitle(sourceFilter, periodFilter, 'Popular', contentTypeFilter);
+
     // First, remove old contents
     $('div.card div.content div.row.listing-row').remove();
 
