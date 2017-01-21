@@ -40,28 +40,35 @@ var menu = [
                 icon: "fa fa-calendar",
                 value: "daily",
                 active: false,
-                available: false
+                available: true
             },
             {
                 name: "Weekly",
                 icon: "fa fa-calendar",
                 value: "weekly",
                 active: false,
-                available: false
+                available: true
             },
             {
                 name: "Yearly",
                 icon: "fa fa-calendar",
                 value: "yearly",
                 active: false,
-                available: false
+                available: true
             }
         ]
     }
 ];
 
 $(document).ready(function () {
-    devrazzi.createMenu(menu);
+    devrazzi.createMenu(menu, refreshContentByFilteringMenu);
+
+    refreshContentByFilteringMenu();
+});
+
+function refreshContentByFilteringMenu() {
+    // First, remove old contents
+    $('div.card div.content div.row.listing-row').remove();
 
     var selectedContent = devrazzi.getSelectedContentByFilteringMenu(menu);
 
@@ -107,7 +114,7 @@ $(document).ready(function () {
     }
 
     var $footer = $('div.card div.content').find('.footer');
-    var rowTemplate = '<div class="row"></div>';
+    var rowTemplate = '<div class="row listing-row"></div>';
     var $row;
     for (var i = 0; i < videoComponents.length; i++) {
         if (i % 2 == 0) {
@@ -116,5 +123,4 @@ $(document).ready(function () {
         $row.append($(videoComponents[i]));
         $footer.before($row);
     }
-
-});
+}

@@ -23,7 +23,10 @@ devrazzi = {
         }
     },
 
-    createMenu: function (menu) {
+    createMenu: function (menu, callbackAfterFilterChanged) {
+        // First, remove old menu items
+        $('.menu-option').parents('li.dropdown').remove();
+
         var menuItemTemplate =
             '<li class="dropdown" data-option-item="{{menuItemName}}">' +
             '    <a href="#" class="dropdown-toggle" data-toggle="dropdown">' +
@@ -51,7 +54,7 @@ devrazzi = {
                 var option = menuItem.options[optionIndex];
                 if (!option.active) {
                     renderedOptions += optionTemplate
-                        .replace("{{optionClass}}", option.available ? '' : 'coming-soon')
+                        .replace("{{optionClass}}", option.available ? 'menu-option' : 'menu-option coming-soon')
                         .replace("{{optionValue}}", option.value)
                         .replace("{{optionIcon}}", option.icon)
                         .replace("{{optionName}}", option.name);
@@ -67,8 +70,27 @@ devrazzi = {
                 .replace("{{options}}", renderedOptions);
         }
 
-        $.each($('ul.nav.navbar-nav'), function (i, $each) {
+        var $navbars = $('ul.nav.navbar-nav');
+        $.each($navbars, function (i, $each) {
             $($each).html(renderedMenuItems + $each.innerHTML);
+        });
+
+        $navbars.find('.menu-option').click(function (e) {
+            var $that = $(this);
+            if ($that.hasClass('coming-soon')) {
+                return;
+            }
+
+            e.preventDefault();
+
+            var selectedMenuItem = $that.parents('li.dropdown').data('option-item');
+            var selectedOption = $that.data('option-value');
+            var menuItem = JSON.search(window.menu, '//*[name="' + selectedMenuItem + '"]')[0];
+            $.each(menuItem.options, function (i, eachOption) {
+                eachOption.active = eachOption.value == selectedOption;
+            });
+            devrazzi.createMenu(window.menu, callbackAfterFilterChanged);
+            callbackAfterFilterChanged && callbackAfterFilterChanged();
         });
     },
 
@@ -76,6 +98,8 @@ devrazzi = {
         var selectedOptions = JSON.search(menu, '//*[active="true"]').map(function (each) {
             return each.value
         });
+
+        console.log("Filtering by: " + selectedOptions);
 
         var selectedContent = devrazzi.contents;
         $.each(selectedOptions, function (i, each) {

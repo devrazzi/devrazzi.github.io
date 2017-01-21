@@ -40,14 +40,21 @@ var menu = [
                 icon: "fa fa-calendar",
                 value: "daily",
                 active: false,
-                available: false
+                available: true
             }
         ]
     }
 ];
 
 $(document).ready(function () {
-    devrazzi.createMenu(menu);
+    devrazzi.createMenu(menu, refreshContentByFilteringMenu);
+
+    refreshContentByFilteringMenu();
+});
+
+function refreshContentByFilteringMenu() {
+    // First, remove old contents
+    $('div.card div.content div.row.listing-row').remove();
 
     var selectedContent = devrazzi.getSelectedContentByFilteringMenu(menu);
 
@@ -66,7 +73,7 @@ $(document).ready(function () {
     }
 
     var $footer = $('div.card div.content').find('.footer');
-    var rowTemplate = '<div class="row"></div>';
+    var rowTemplate = '<div class="row listing-row"></div>';
     var $row;
     for (var i = 0; i < tweetComponents.length; i++) {
         if (i % 2 == 0) {
@@ -92,5 +99,4 @@ $(document).ready(function () {
             }
         }
     );
-
-});
+}
