@@ -10,16 +10,16 @@ var menu = [
                 available: true
             },
             {
-                name: "All",
-                icon: "fa fa-list-ol",
-                value: "all",
+                name: "Vimeo",
+                icon: "fa fa-vimeo",
+                value: "vimeo",
                 active: false,
                 available: false
             },
             {
-                name: "Vimeo",
-                icon: "fa fa-vimeo",
-                value: "vimeo",
+                name: "All",
+                icon: "fa fa-list-ol",
+                value: "all",
                 active: false,
                 available: false
             }
@@ -28,13 +28,6 @@ var menu = [
     {
         name: "period",
         options: [
-            {
-                name: "Monthly",
-                icon: "fa fa-calendar",
-                value: "monthly",
-                active: true,
-                available: true
-            },
             {
                 name: "Daily",
                 icon: "fa fa-calendar",
@@ -47,6 +40,13 @@ var menu = [
                 icon: "fa fa-calendar",
                 value: "weekly",
                 active: false,
+                available: true
+            },
+            {
+                name: "Monthly",
+                icon: "fa fa-calendar",
+                value: "monthly",
+                active: true,
                 available: true
             },
             {

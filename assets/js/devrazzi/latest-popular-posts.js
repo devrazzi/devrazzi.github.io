@@ -10,16 +10,16 @@ var menu = [
                 available: true
             },
             {
-                name: "All",
-                icon: "fa fa-list-ol",
-                value: "all",
+                name: "LinkedIn",
+                icon: "fa fa-linkedin",
+                value: "linkedin",
                 active: false,
                 available: false
             },
             {
-                name: "LinkedIn",
-                icon: "fa fa-linkedin",
-                value: "linkedin",
+                name: "All",
+                icon: "fa fa-list-ol",
+                value: "all",
                 active: false,
                 available: false
             }
@@ -29,17 +29,17 @@ var menu = [
         name: "period",
         options: [
             {
-                name: "Weekly",
-                icon: "fa fa-calendar",
-                value: "weekly",
-                active: true,
-                available: true
-            },
-            {
                 name: "Daily",
                 icon: "fa fa-calendar",
                 value: "daily",
                 active: false,
+                available: true
+            },
+            {
+                name: "Weekly",
+                icon: "fa fa-calendar",
+                value: "weekly",
+                active: true,
                 available: true
             }
         ]

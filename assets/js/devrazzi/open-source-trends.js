@@ -10,16 +10,16 @@ var menu = [
                 available: true
             },
             {
-                name: "All",
-                icon: "fa fa-list-ol",
-                value: "all",
+                name: "GitLab",
+                icon: "fa fa-gitlab",
+                value: "gitLab",
                 active: false,
                 available: false
             },
             {
-                name: "GitLab",
-                icon: "fa fa-gitlab",
-                value: "gitLab",
+                name: "All",
+                icon: "fa fa-list-ol",
+                value: "all",
                 active: false,
                 available: false
             }
@@ -67,17 +67,17 @@ var menu = [
         name: "period",
         options: [
             {
-                name: "Weekly",
-                icon: "fa fa-calendar",
-                value: "weekly",
-                active: true,
-                available: true
-            },
-            {
                 name: "Daily",
                 icon: "fa fa-calendar",
                 value: "daily",
                 active: false,
+                available: true
+            },
+            {
+                name: "Weekly",
+                icon: "fa fa-calendar",
+                value: "weekly",
+                active: true,
                 available: true
             },
             {
