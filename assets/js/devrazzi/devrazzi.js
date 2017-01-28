@@ -57,7 +57,7 @@ devrazzi = {
                         .replace("{{optionClass}}", option.available ? 'menu-option' : 'menu-option coming-soon')
                         .replace("{{optionValue}}", option.value)
                         .replace("{{optionIcon}}", option.icon)
-                        .replace("{{optionName}}", option.name);
+                        .replace("{{optionName}}", option.available ? option.name : '<del>' + option.name + '</del>');
                 }
             }
 
@@ -114,7 +114,7 @@ devrazzi = {
         return selectedContent;
     },
 
-    updateContentTitle: function(sourceFilter, periodFilter, sortingFilter, contentTypeFilter) {
+    updateContentTitle: function (sourceFilter, periodFilter, sortingFilter, contentTypeFilter) {
         $('div.card p.category').text(sourceFilter);
         $('div.card h4.title').text(periodFilter + ' ' + sortingFilter + ' ' + contentTypeFilter);
     }
