@@ -70,7 +70,7 @@ function refreshContentByFilteringMenu() {
     // Update content title by new filter
     var sourceFilter = JSON.search(window.menu, '//*[name="source"]/options[active="true"]/name')[0];
     var periodFilter = JSON.search(window.menu, '//*[name="period"]/options[active="true"]/name')[0];
-    devrazzi.updateContentTitle(sourceFilter, periodFilter, 'Most Popular', 'Videos for Developers');
+    devrazzi.updateContentMetaData(sourceFilter, periodFilter, 'Most Popular', 'Videos for Developers');
 
     // First, remove old contents
     $('div.card div.content div.row.listing-row').remove();

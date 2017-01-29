@@ -103,7 +103,7 @@ function refreshContentByFilteringMenu() {
     var periodFilter = JSON.search(window.menu, '//*[name="period"]/options[active="true"]/name')[0];
     var sortingFilter = JSON.search(window.menu, '//*[name="sorting"]/options[active="true"]/name')[0];
     var contentTypeFilter = JSON.search(window.menu, '//*[name="contentType"]/options[active="true"]/name')[0];
-    devrazzi.updateContentTitle(sourceFilter, periodFilter, sortingFilter, contentTypeFilter);
+    devrazzi.updateContentMetaData(sourceFilter, periodFilter, sortingFilter, contentTypeFilter);
 
     // First, remove old contents
     $('div.card div.content div.row.listing-row').remove();

@@ -114,9 +114,12 @@ devrazzi = {
         return selectedContent;
     },
 
-    updateContentTitle: function (sourceFilter, periodFilter, sortingFilter, contentTypeFilter) {
+    updateContentMetaData: function (sourceFilter, periodFilter, sortingFilter, contentTypeFilter) {
         $('div.card p.category').text(sourceFilter);
         $('div.card h4.title').text(periodFilter + ' ' + sortingFilter + ' ' + contentTypeFilter);
+
+        var updatedAt = devrazzi.contents[JSON.search(window.menu, '//*[name="source"]/options[active="true"]/value')[0]].updatedAt;
+        $('div.stats').html('<i class="ti-reload"></i> Updated ' + moment(updatedAt).fromNow())
     }
 
 };
