@@ -88,9 +88,9 @@ function refreshContentByFilteringMenu() {
         '       </a>' +
         '   </p>' +
         '   <p>' +
-        '       <div class="embed-responsive embed-responsive-16by9">' +
-        '           <iframe class="embed-responsive-item" src="{{videoEmbedUrl}}"></iframe>' +
-        '       </div>' +
+        '       <a href="{{videoUrl}}" target="_blank">' +
+        '           <img class="img-thumbnail" src="{{videoImageUrl}}" alt="{{videoTitle}}">' +
+        '       </a>' +
         '   </p>' +
         '   <p class="github-repo-stats">' +
         '       <span style="margin-right: 15px">' +
@@ -98,6 +98,9 @@ function refreshContentByFilteringMenu() {
         '       </span>' +
         '       <span style="margin-right: 15px">' +
         '           <i class="fa fa-thumbs-up"></i> {{videoLikeCount}}' +
+        '       </span>' +
+        '       <span style="margin-right: 15px">' +
+        '           {{publishedAt}}' +
         '       </span>' +
         '   </p>' +
         '</div>';
@@ -110,10 +113,14 @@ function refreshContentByFilteringMenu() {
             .replace('{{channelUrl}}', eachVideo.youTubeChannel.url)
             .replace('{{channelTitle}}', eachVideo.youTubeChannel.title)
             .replace('{{videoUrl}}', eachVideo.url)
+            .replace('{{videoUrl}}', eachVideo.url)
             .replace('{{videoTitle}}', eachVideo.title)
+            .replace('{{videoTitle}}', eachVideo.title)
+            .replace('{{videoImageUrl}}', eachVideo.thumbnailImageUrl)
             .replace('{{videoEmbedUrl}}', eachVideo.embedUrl)
             .replace('{{videoViewCount}}', eachVideo.viewCount)
-            .replace('{{videoLikeCount}}', eachVideo.likeCount);
+            .replace('{{videoLikeCount}}', eachVideo.likeCount)
+            .replace('{{publishedAt}}', moment(eachVideo.publishedAt).fromNow());
 
         videoComponents.push(renderedComponent);
     }
