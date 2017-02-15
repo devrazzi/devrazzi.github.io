@@ -145,7 +145,7 @@ function refreshContentByFilteringMenu() {
             .replace('{{programmingLanguage}}', eachRepository.programmingLanguage ? ('<span style="margin-right: 15px">' + eachRepository.programmingLanguage + '</span>') : "")
             .replace('{{totalStars}}', eachRepository.totalStars)
             .replace('{{newStars}}', eachRepository.newStarsInPeriod)
-            .replace('{{period}}', 'today');
+            .replace('{{period}}', 'in this period');
 
         repositoryComponents.push(renderedComponent);
     }
